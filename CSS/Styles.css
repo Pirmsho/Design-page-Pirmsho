@@ -29,6 +29,80 @@ a {
     font-size: 20px;
     border: black solid 1px;
     padding: 5px;
-    border-radius: 10px;
-    background-color: #041C40;
+    border-radius: 5px;
+    background-color: #0B48A8;
+    display: inline-block;
+}
+.tryfree:hover {
+    background-color: black;
+}
+.container {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.headtext {
+    font-size: 64px;
+    color: #13366D;
+}
+.firstparagraph {
+    color: #A2A2A2;
+}
+#email {
+    padding: 7px;
+}
+.graytext {
+    display: inline-block;
+    margin-right: 10px;
+    color: #A2A2A2 ;
+    font-size: 16px;
+}
+.parent1 {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.child {
+    width: 280px ;
+    height: 270px;
+    border: #B8B8B8 solid 1px;
+    padding: 5px;
+    background-color: white;
+}
+.parent2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.child2 {
+    border: #C2C2C2 1px solid; 
+    padding: 10px;
+    text-align: center;
+    background-color: #FFF3D9;
+    width: 250px;
+}
+.toptext {
+    background-color: #13366D;
+    padding: 10px;
+    color: white;
+    border: black 1px solid;
+    border-radius: 5px;
+
+}
+.maintext {
+    font-family: sans-serif;
+}
+.price {
+    color: black;
+    font-size: 36px;
+    font-style: bold, italic ;
+}
+.ad {
+    width: 270px;
+    border: #C2C2C2 solid 1px;
+    height: 350px;
+    padding: 10px;
+}
+.adtext1 {
+    font-size: 15px;
 }
